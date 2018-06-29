@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Vidya</title>
+</head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+<body>
+<div class="first">
+	<div class="container-fluid po" style="position: fixed;">
+	<div class="container topcon">
+		<div class="row">
+			<div class="col-2 pad5">
+				<a href="#"><img src="vector-smart-object (24).png" style="height:42px;width:36px" class="img-responsive "></a>
+			</div>
+			<div class="col-9 col-lg-7 offset-1 offset-lg-3">
+				<div class="row">
+				<ul class="ulstyle">
+					<li class="item1  cool-link">
+						About us
+					</li>
+					<li class="item1 cool-link" id="product" style="cursor:pointer;" onclick="popfunc()">
+						Products
+						<div class="popup1">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 itmhead">
+										PRODUCTS
+									</div>
+									<div class="col-12 itm">
+										Customer Management
+									</div>
+									<div class="col-12 itm">
+										Identity & Fraud
+									</div>
+									<div class="col-12 itm" style="padding-bottom: 0%;padding-top: 2%;">
+										Customer Aquizition
+										<p style="font-size: 12px;">
+										coming soon
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="item1  cool-link">
+						DataLabs
+					</li>
+					<li class="item1  cool-link">
+						Developers
+					</li>
+					<li class="item1  cool-link">
+						Blog
+					</li>
+				</ul>
+				<div class="col-xs-3 col-md-2 marl5 offset-6 offset-sm-7 offset-md-0 " style="padding:0;">
+				<button class="button1 dissap">
+					LOGIN
+				</button>
+				</div>
+				<div class="col-xs-2 col-sm-2 nav">
+					<span style="cursor:pointer;" id="modalBtn">&#9776;</span>
+				</div>
+				<div id="simpleModal" class="modal" aria-hidden="true">
+    			<div class="modal-content col-11">
+    				<span class="closeBtn" style="text-align:right;padding-right: 3%;">&times;</span>
+    				<div class="container-fluid">
+    					<div style="padding-left: 1%">
+    					<p class="cont1">
+    						Products
+    					</p>
+   						<div style="padding-bottom:7%;">
+    					<div class="pado1">
+    					<img src="Technology-Suite.svg" class="imgcon"><span>Technology Suite</span>
+    					</div>
+    					<div class="pado1">
+    					<img src="Credit-Underwriting-Suite.svg" class="imgcon"><span>Underwriting Suite</span>
+    					</div>
+    					<div class="pado1" style="display:inline-flex;">
+    					<img src="Data-Analysis-Suite.svg" class="imgcon">
+    					<div style="color:grey">
+    					Analytics Suite
+    					<p class="soon">
+    						Coming soon
+    					</p>
+    					</div>
+    				</div>
+    				</div>
+    				<div style="border-top: 1px solid gainsboro;padding-top:5%;padding-bottom:5%;display: inline-flex;width:100%">
+    					<ul class="about" style="padding-left:15px">
+    						<li>About Us</li>
+							<li>Track Order</li>
+							<li>Feedback</li>
+							<li> Careers</li>
+    					</ul>
+    					<ul class="about">
+    						<li>Our clients</li>
+							<li>Call Us</li>
+							<li>Mail Us</li>
+    					</ul>
+    				</div>
+    				</div>
+    				<div class="row ">
+    					<div class="col-12 class1">
+    					LOGIN
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="padd1">
+	<center>
+	<p class="width">Helping  <span id="box1" class="animated zoomIn test">Axis Bank</span> lend to
+new-to-credit customers!</p>
+	</center>
+</div>
+<div class="padd2">
+	<center>
+	<div class="wrapper">
+	<button class="button3">Request Demo</button>
+	</div>
+	</center>
+</div>
+<div class="padd3">
+	<center>
+		<div data-aos="flip-up">
+		<img src="layer-4.png" class="img-responsive" style="mix-blend-mode:lighten;opacity:0.8;">
+		</div>
+	</center>
+</div>
+<div class="container">
+	<div class="row color1">
+		<div class="col-12 col-md-7 col-sm-push-5 list">
+			<p class="para1">
+				Instant credit in 2017
+			</p>
+			<p class="para2">
+				Better use of data and technology for faster loan disbursable
+			</p>
+			<p class="para3">
+				<a href="#"><i style="padding-right:1%;cursor:pointer;" class="fa">&#xf019;</i> DOWNLOAD CASE STUDY</a>
+			</p>
+			<div style="padding-top: 52px;padding-left:3%">
+			<label class="container1">10,000+
+  <input type="radio" name="radio" id="input1" checked="checked" onclick="function1()">
+  <span class="checkmark"></span>
+  <div class="horizontal"></div>
+  <div class="vertical2"></div>
+  <div class="vertical"></div>
+</label>
+<p class="opt">
+Data Points
+</p>
+<label class="container1">One Click
+  <input type="radio" name="radio" id="input2" onclick="function2()">
+  <span class="checkmark"></span>
+  <div class="vertical"></div>
+</label>
+<p class="opt">
+Approvals
+</p>
+<label class="container1">3 Mins
+  <input type="radio" name="radio" id="input3" onclick="function3()">
+  <span class="checkmark"></span>
+  <div class="vertical" style="height:240px"></div>
+  <div class="horizontal2"></div>
+</label>
+<p class="opt">
+Loan Disbursal
+</p>
+		</div>
+	</div>
+	<div class="col-12 col-md-5 col-sm-pull-7 img-holder" >
+			<img src="layer-6.png" id="imagehold" class="img-responsive " style="text-align:right;width:100%;">
+			<div class="col-12 col-md-10 info">
+				<div class="comma">
+					“
+				</div>
+				<p class="para4">
+				Who knew that one day you could get a loan sitting at home.
+				</p>
+				<p class="para41">
+					Ravi Kishan
+				</p>
+			</div>
+		</div>
+</div>
+<div class="row" style="background-color:white;">
+	<div class="col-12 parab">
+	<center>
+		<p class="para6" data-aos="fade-right" data-aos-duration="1000" >
+		How we do it
+		</p>
+		<p class="para7" data-aos="fade-right" data-aos-duration="1000">
+			Better use of data and technology for faster loan disbursable
+		</p>
+		<div class="horizontal3"></div>
+	</center>
+
+	</div>
+</div>
+<div class="row padop" style="background-color:white;">
+	<div class="col-12">
+	<div class="vertical3"></div>
+	<div class="circle"></div>
+	</div>
+	<div class="col-12 col-md-5 img1 col-sm-push-6" data-aos="zoom-in"  data-aos-duration="1200">
+			<img src="illustration-1.png" class="img-responsive centr1">
+		
+	</div>
+	<div class="col-11 col-md-6 col-sm-pull-5 marl1" style="padding:0;">
+		<div class="verticaln1"></div>
+		<div class="rectangle1">
+		<p class="para8" data-aos="fade-up"  data-aos-duration="1000" >
+			Credit score 2.0
+		</p>
+		<p class="para9" data-aos="fade-up"  data-aos-duration="1000" >
+			Propertity machine learning and big data algorithms to analyze 10,000+ structured and unstructured data points to underwrite loans to new to credit borrowers at scale.
+		</p>
+		</div>
+		<div class="triangle"></div>
+	</div>
+</div>
+<div class="row padop1" style="background-color:white;">
+	<div class="col-12">
+	<div class="vertical4"></div>
+	<div class="circle1"></div>
+	</div>
+	<div class="col-12 col-md-5  img2 " data-aos="zoom-in"  data-aos-duration="1200">
+			<img src="illustration.png" class="img-responsive centr">
+		
+	</div>
+	<div class="col-11 col-md-6 marl2" style="padding:0;">
+		<div class="verticaln1"></div>
+		<div class="rectangle2 shadow">
+		<p class="para10" data-aos="fade-up"  data-aos-duration="1000">
+			Automated Underwriting
+		</p>
+		<p class="para11" data-aos="fade-up"  data-aos-duration="1000">
+			Leverage technology and advances in India stack to completely automate KYC and other manual interventions required to underwrite consumer credit.
+		</p>
+		</div>
+		<div class="triangle1"></div>
+	</div>
+</div>
+<div class="row padop2" style="background-color:white;">
+	<div class="col-12">
+	<div class="vertical3"></div>
+	<div class="circle"></div>
+	</div>
+	<div class="col-12 col-md-5 img3 col-sm-push-6" data-aos="zoom-in"  data-aos-duration="1200">
+			<img src="illustration (1).png" class="img-responsive centr1">	
+	</div>
+	<div class="col-11 col-md-6 col-sm-pull-5 marl3 " style="padding:0;">
+		<div class="verticaln1"></div>
+		<div class="rectangle1">
+		<p class="para8" data-aos="fade-up"  data-aos-duration="1000">
+			Powerful Security
+		</p>
+		<p class="para9" data-aos="fade-up"  data-aos-duration="1000">
+			Propertity machine learning and big data algorithms to analyze 10,000+ structured and unstructured data points to underwrite loans to new to credit borrowers at scale.
+		</p>
+		</div>
+		<div class="triangle"></div>
+	</div>
+</div>
+<div class="row padop1" style="background-color:white;padding-bottom: 190px;">
+	<div class="col-12">
+	<div class="vertical4"></div>
+	<div class="circle1"></div>
+	</div>
+	<div class="col-12 col-md-5 img4 " data-aos="zoom-in"  data-aos-duration="1200">
+			<img src="illustration.png" class="img-responsive centr">
+		
+	</div>
+	<div class="col-11 col-md-6 marl4" style="padding:0;">
+		<div class="verticaln1"></div>
+		<div class=" rectangle2 shadow">
+		<p class="para10" data-aos="fade-up"  data-aos-duration="1000">
+			Easy To Integrate
+		</p>
+		<p class="para11" data-aos="fade-up"  data-aos-duration="1000">
+			Leverage technology and advances in India stack to completely automate KYC and other manual interventions required to underwrite consumer credit.
+		</p>
+		</div>
+		<div class="triangle1"></div>
+		<div class="vertical5"></div>
+		<div class="horizontal4"></div>
+	</div>
+</div>
+</div>
+<div class="container-fluid" style="background-color:#fd882b">
+	<p style="padding-top:5%" class="para12" data-aos="fade-up" data-aos-duration="1500">
+			Product suite
+		</p>
+		<center>
+		<p style="padding-top:1%" class="para13" data-aos="fade-up" data-aos-duration="1500">
+			Better use of data and technology for faster loan disbursable
+		</p>
+		</center>
+	<div class="row" style="padding:5%;padding-top:4%;padding-bottom: 24%;">
+		<div class="col-12 col-md-4  " data-aos="fade-up" data-aos-duration="1000">
+			<div class="rectangle3 pad4">
+				<img src="screen-shot-2017-09-01-at-7-36-29-pm.png" class="img-responsive" style="padding-top:5%">
+				<p class="para14">
+					Customer Management
+				</p>
+				<p class="para15">
+					Leverage technology and advances in 
+					India stack to completely automate 
+					KYC. Leverage technology and advances 
+					in India stack.
+				</p>
+				<ul class="content1">
+					<li>Slush 1.0</li>
+					<li>Insta Loan</li>
+					<li>FFR</li>
+					<li>Maximus</li>
+				</ul>
+				<button class="button4"><i class="fa fa-arrow-right" style="font-size:18px;"></i></button>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 " style="margin-top:5%"  data-aos="fade-up" data-aos-duration="1100">
+			<div class="rectangle3 pad4">
+				<img src="screen-shot-2017-09-01-at-7-36-36-pm-copy.png" class="img-responsive" style="padding-top:5%">
+				<p class="para14">
+					Identity & Fraud
+				</p>
+				<p class="para15">
+					Leverage technology and advances in 
+					India stack to completely automate 
+					KYC. Leverage technology and advances 
+					in India stack.
+				</p>
+				<ul class="content1">
+					<li>Slush 1.0</li>
+					<li>Insta Loan</li>
+					<li>FFR</li>
+					<li>Maximus</li>
+				</ul>
+				<button class="button4" style="bottom:9%;right:14%"><i class="fa fa-arrow-right" style="font-size:18px;"></i></button>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 "  data-aos="fade-up" data-aos-duration="1200">
+			<div class="rectangle3 martop pad4">
+				<img src="screen-shot-2017-09-01-at-7-36-29-pm.png" class="img-responsive" style="padding-top:5%">
+				<p class="para14">
+					Customer Acquisition
+				</p>
+				<p class="para15">
+					Leverage technology and advances in 
+					India stack to completely automate 
+					KYC. Leverage technology and advances 
+					in India stack.
+				</p>
+				<ul class="content1">
+					<li>Slush 1.0</li>
+					<li>Insta Loan</li>
+					<li>FFR</li>
+					<li>Maximus</li>
+				</ul>
+				<button class="button4"><i class="fa fa-arrow-right" style="font-size:18px;"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container" style="background-color:white;margin-top:-11%;">
+	<div style="padding-top:5%;">
+		<p class="para16"  data-aos="fade-up"  data-aos-duration="1000">
+			Meet our clients
+		</p>
+		<center>
+		<p class="para17"  data-aos="fade-up"  data-aos-duration="1500">
+			Better use of data and technology for faster loan disbursable
+		</p>
+		</center>
+	</div>
+<div data-aos="fade-up"  data-aos-duration="1600">
+	<div class="row" style="padding-top:3%">
+		<div class="col-4 col-md-2 rectangle4 dis">
+		
+		</div>
+		<div class="col-4 col-md-2 rectangle4 dis">
+
+		</div>
+		<div class="col-4 col-md-2 rectangle4 dis">
+			
+		</div>
+		<div class="col-4 col-md-2 rectangle4 ">
+			<img src="fullerton-india1-817x404-c.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 col-md-2 rectangle4">
+			<img src="fullerton-india1-817x404-c.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 col-md-2 rectangle4" style="border-right:0">
+			<img src="0dldkg-h-copy.png" class="img-fluid padd4">
+		</div>
+		</div>
+		<div class="row" >
+		<div class="col-12 col-md-6 rectangle5" style="overflow: auto;">
+			<div class="container-fluid">
+			<div class="row" style="height: 39.8vh;padding:0;">
+				<div class="col-4" style="    display: flex;justify-content: center;align-items: center;">
+					<img src="solid-color-you-tube-logo-copy-2.png">
+				</div>
+				<div class="col-7 in2" style="text-align:left;display: flex;justify-content: center;align-items: center;">
+					<div>
+					<p class="para18"  >
+						CreditVidya is an innovative and creative company that understands the users requirements and 
+						caters to them.
+					</p>
+					<p class="para19" >
+						Srikanth Kumar, CFO
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-12 col-md-6">
+		<div class="row">
+		<div class="col-4 rectangle4">
+			<img src="0dldkg-h-copy.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 rectangle4">
+			<img src="slack-logo.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 rectangle4" style="border-right:0">
+			<img src="intel-png11-copy.png" class="img-fluid padd4">
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-4 rectangle4">
+			<img src="tata-logo-2000-2560x1440-copy.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 rectangle4">
+			<img src="tata-logo-2000-2560x1440-copy.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 rectangle4" style="border-right:0">
+			<img src="solid-color-you-tube-logo-copy.png" class="img-fluid padd4">
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="row" style="padding-bottom:5%">
+		<div class="col-4 col-md-2 rectangle4 dis"></div>
+		<div class="col-4 col-md-2 rectangle4 dis"></div>
+		<div class="col-4 col-md-2 rectangle4 dis"></div>
+		<div class="col-4 col-md-2 rectangle4 dis">
+			<img src="slack-logo.png" class="img-fluid padd4">
+		</div>
+		<div class="col-4 col-md-2 rectangle4">
+			<img src="layer-11.png" class="img-fluid padd4" >
+		</div>
+		<div class="col-4 col-md-2 rectangle4 bord">
+			<img src="---more.png" class="img-fluid padd4" >
+		</div>
+	</div>
+</div>
+<div style="padding-top:5%;text-align: center;">
+	<p class="para20"  data-aos="fade-up"  data-aos-duration="1000"> 
+		Blog updates
+	</p>
+	<p class="para21"  data-aos="fade-up"  data-aos-duration="1500">
+		Better use of data and technology for faster<br>loan disbursable
+	</p>
+</div>
+<div style="padding-top:1%;text-align: center;">
+	<ul class="list2"  data-aos="fade-up"  data-aos-duration="1000">
+		<li>Case Study</li>
+		<li>Data Science</li>
+		<li>Credit Scoring</li>
+		<li>Credit Report</li>
+	</ul>
+</div>
+<div class="row" style="padding-top:3%;padding-bottom:3%"  data-aos="fade-up"  data-aos-duration="2000">
+	<div class="col-12 col-md-6 holder1">
+		<button class="button5">case study</button>
+		<div style="padding-left:3%">
+		<p class="para22">
+			20 AUG 2017
+		</p>
+		<p class="para23">
+			Instaloan breaks records as fastest loan lending application!
+		</p>
+	</div>
+	</div>
+	<div class="col-12 col-md-6 padd5" style="padding-left: 2%;">
+		<div class="holder2">
+			<button class="button5">Case Study</button>
+		</div>
+		<div>
+		<p class="para24">
+			20 AUG 2017
+		</p>
+		<p class="para25">
+			Instaloan breaks records as fastest 
+			loan lending application!
+		</p>
+		<p class="para26">
+			Better use of data and technology for faster loan disbursable
+			technology for faster loan disbursable...
+		</p>
+		<div class="container-fluid">
+		<div class="row" style="padding-top:10px;">
+			<div class="col-5 col-lg-4 holder3">
+				<button class="button5">Case Study</button>
+			</div>
+			<div class="col-7 col-lg-8">
+				<p class="para27">
+					Instaloan breaks records as fastest loan lending application!
+				</p>
+				<p class="para28">
+					20 AUG 2017
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+<div style="padding-top:10%">
+	<p class="para16"  data-aos="fade-up"  data-aos-duration="1100">
+			Ready to begin?
+		</p>
+		<center>
+		<p class="para17"  data-aos="fade-up"  data-aos-duration="1400">
+			Get the live look and feel of CreditVidya’s<br>products now!
+		</p>
+		</center>
+		<div style="padding-top:4%;padding-bottom:2%">
+	<center>
+	<div class="wrapper2" data-aos="flip-down"  data-aos-duration="1000">
+	<button class="button9">REQUEST A LIVE DEMO</button>
+	</div>
+	<div style="padding-top:10%;">
+		<p class="para17"  data-aos="fade-up"  data-aos-duration="1200">
+			Follow Us
+		</p>
+		<div class="follow"  data-aos="fade-up"  data-aos-duration="1400">
+			<button class="f">
+			<i class="fa fa-facebook"></i>
+			</button>
+			<button class="t">
+			<i class="fa fa-twitter"></i>
+			</button>
+			<button class="l">
+			<i class="fa fa-linkedin"></i>
+			</button>
+			<button class="g">
+			<i class="fa fa-google-plus"></i>
+			</button>
+		</div>
+	</div>
+	</center>
+</div>
+<div class="footer"  data-aos="fade-down"  data-aos-duration="1500">
+	<div class="row">
+	<div class="col-12 col-md-4 col-sm-push-8">
+		<div class="row">
+			<div class="col-12 col-md-7 padd8">
+				<p class="topic" style="padding-left:0">
+					Mail Us
+				</p>
+				<p class="topic2">
+					Info@creditvidya.com
+				</p>
+			</div>
+			<div class="col-12 col-md-5 padd9">
+				<p class="topic" style="padding-left:0">
+					Call Us
+				</p>
+				<p class="topic2">
+				022 23647130
+				</p>
+			</div>
+			</div>
+			<div class="col-12 dis" style="padding-left:1%;padding-top:5%">
+				<p class="para29">
+					©2017 Credit Vidya. All rights reserved
+				</p>
+			</div>
+		</div>
+	<div class="col-12 col-md-8 col-sm-pull-4">
+	<div class="row" style="padding:0">
+		<div class="col-6 col-md-3" style="padding-bottom:2.5%">
+			
+			<p class="topic">
+				Homepage
+			</p>
+			<ul class="list3">
+				<li>About Us</li>
+				<li>Track Order</li>
+				<li>Feedback</li>
+				<li> Careers</li>
+				<li>Store Location</li>
+			</ul>
+			
+		</div>
+		<div class="col-6 col-md-3">
+			
+			<p class="topic">
+				About Us
+			</p>
+			<ul class="list3">
+				<li>About Us</li>
+				<li>Track Order</li>
+				<li>Feedback</li>
+				<li> Careers</li>
+				<li>Store Location</li>
+			</ul>
+			
+		</div>
+		<div class="col-6 col-md-3">
+			
+			<p class="topic">
+				Client Login
+			</p>
+			<ul class="list3">
+				<li>About Us</li>
+				<li>Track Order</li>
+				<li>Feedback</li>
+				<li> Careers</li>
+				<li>Store Location</li>
+			</ul>
+			
+		</div>
+		<div class="col-6 col-md-3" style="padding-right:0">
+			
+			<p class="topic">
+				Documentation
+			</p>
+			<ul class="list3">
+				<li>About Us</li>
+				<li>Track Order</li>
+				<li>Feedback</li>
+				<li> Careers</li>
+				<li>Store Location</li>
+			</ul>
+			
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+ 
+AOS.init({
+   once: true
+})
+</script>
+<script type="text/javascript">
+  $(window).scroll(function(){
+  		if( $(this).scrollTop() >50)
+  		{
+  			$('div.po').addClass('scrolled');
+  			$('li.item1').addClass('black');
+  			$('button.button1').addClass('white');
+  			$('button.button1').addClass('button2');
+  			$('div.nav').addClass('blue');
+  			$('li.cool-link').addClass('blackback');
+  		}
+  		else
+  		{
+  			$('div.po').removeClass('scrolled');
+  			$('li.item1').removeClass('black');
+  			$('button.button1').removeClass('white');
+  			$('button.button1').removeClass('button2');
+  			$('div.nav').removeClass('blue');
+  			$('li.cool-link').removeClass('blackback');
+  		}
+  	}
+  	);
+  </script>
+  <script type="text/javascript">
+  	var text = ["Fullerton India", "Tata Capital", "SBI Bank","Axis Bank"];
+var counter = 0;
+var elem = document.getElementById("box1");
+var inst = setInterval(change, 2200);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+}
+setInterval(function(){$('#box1').toggleClass('animated zoomIn')}, 2200);
+  </script>
+  <script type="text/javascript">
+  	$(function() {
+  setInterval(function() {
+    var animationName = 'animated zoomIn';
+    var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    $('.test').addClass(animationName).one(animationend, function() {
+      $(this).removeClass(animationName);
+    });
+  }, 2200);
+});
+</script>
+<script type="text/javascript">
+	function function1(){
+			
+		document.getElementById("imagehold").src = "layer-6.png";
+		document.getElementsByClassName("para4")[0].innerText="Who knew that one day you could get a loan sitting at home.";
+		document.getElementsByClassName("para41")[0].innerText="Ravi Kishan"
+	}
+	function function2(){
+		document.getElementById("imagehold").src = "testimonial_2.jpg";
+		document.getElementsByClassName("para4")[0].innerText="Great app with hassle free and simple loan process";
+		document.getElementsByClassName("para41")[0].innerText="Vaishali Ghosh"
+		
+	}
+	function function3(){
+			
+		document.getElementById("imagehold").src = "testimonial_3.jpg";
+		document.getElementsByClassName("para4")[0].innerText="Easy to apply for personal loan from anywhere at anytime.";
+		document.getElementsByClassName("para41")[0].innerText="K Srikanth"
+	}
+	
+</script>
+<script type="text/javascript">
+$(function(){
+      $('#input1').click(function(){
+        animate('#imagehold', 'fadeIn');
+       	animate('.para4', 'flipInX');
+       	animate('.para41', 'flipInX');
+       	animate('.comma', 'fadeInUp');
+      });
+      $('#input2').click(function(){
+        animate('#imagehold', 'fadeIn');
+        animate('.para4', 'flipInX');
+        animate('.para41', 'flipInX');
+        animate('.comma', 'fadeInUp');
+      });
+      $('#input3').click(function(){
+        animate('#imagehold', 'fadeIn');
+        animate('.para4', 'flipInX');
+        animate('.para41', 'flipInX');
+        animate('.comma', 'fadeInUp');
+      });
+       $('#product').click(function(){
+        animate('.popup1','flipInY');
+      });
+      function animate(element, animation){
+        $(element).addClass('animated '+animation);
+        var wait = setTimeout(function(){
+          $(element).removeClass('animated '+animation);
+        }, 1000);
+      }
+    })
+</script>
+<script type="text/javascript">
+	var radiobuttons = $('input[name="radio"]');
+var i = 1;
+
+var rollDemRadios = setInterval(function() {
+    var currentbutton = radiobuttons[i];
+
+    currentbutton.click();
+
+    i = (i + 1) % radiobuttons.length;
+
+}, 3200);
+</script>
+<script type="text/javascript">
+// Get modal element
+var modal = document.getElementById('simpleModal');
+// Get open modal button
+var modalBtn = document.getElementById('modalBtn');
+// Get close button
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+// Listen for open click
+modalBtn.addEventListener('click', openModal);
+// Listen for close click
+closeBtn.addEventListener('click', closeModal);
+// Listen for outside click
+window.addEventListener('click', outsideClick);
+
+// Function to open modal
+function openModal(){
+  modal.style.display = 'block';
+}
+
+// Function to close modal
+function closeModal(){
+  modal.style.display = 'none';
+}
+
+// Function to close modal if outside click
+function outsideClick(e){
+  if(e.target == modal){
+    modal.style.display = 'none';
+  }
+}
+function popfunc(){
+	var popup = document.getElementsByClassName("popup1")[0];
+	 popup.classList.toggle("show");
+}
+</script>
+</html>
